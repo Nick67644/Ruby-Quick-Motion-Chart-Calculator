@@ -76,4 +76,4 @@ end
 
 # Finishes script
 
-puts("Script finished - Restart if you wish to run again.")
+puts("\nScript finished - Restart if you wish to run again.")
