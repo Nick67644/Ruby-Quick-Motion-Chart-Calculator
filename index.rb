@@ -3,7 +3,7 @@
 puts "Quick Motion Chart calculator - Programmed in Ruby"
 sleep 0.25
 
-puts "Enter a Velocity: "
+puts "Enter Velocity: "
 
 # Allows user to state/intake the amount of velocity
 
@@ -13,7 +13,7 @@ validv = Integer($numv) rescue false
 if validv
   else
     puts "Invalid - Enter valid number"
-    puts "Enter a Velocity: "
+    puts "Enter Velocity: "
     numberv()
   end
 end
@@ -47,7 +47,7 @@ $outcomes_test = Integer($outcomes) rescue false
 if $outcomes_test
   else
     puts "Invalid - Enter valid number"
-    puts "Enter a outcome: "
+    puts "Enter an outcome: "
     numberout()
   end
 end
